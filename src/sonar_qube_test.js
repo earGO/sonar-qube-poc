@@ -28,6 +28,7 @@ export function andThenSomeMore(parameter1, parameter2) {
 
     if (parameter1 == parameter2) {
         criteria = true
+        console.log('surprise')
     }
     result = criteria ? 1 : 2
     return result
