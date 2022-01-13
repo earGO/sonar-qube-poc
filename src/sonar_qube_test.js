@@ -7,8 +7,9 @@ export function sonarTest(string1, string2){
     }
 }
 
-export function sonarTestToo(stringRoot, stringToAdd){
-    return stringRoot=+stringToAdd
+export function sonarTrigger2(stringparameter){
+    let result = stringparameter=+1
+    return result
 }
 
 export function sonarTestThree(stringRoot, stringToAdd){
