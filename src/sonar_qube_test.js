@@ -18,4 +18,3 @@ export function sonarTestThree(stringRoot, stringToAdd){
         result =+stringToAdd
     }
     return result
-}
