@@ -10,3 +10,12 @@ export function sonarTest(string1, string2){
 export function sonarTestToo(stringRoot, stringToAdd){
     return stringRoot=+stringToAdd
 }
+
+export function sonarTestThree(stringRoot, stringToAdd){
+    const result = undefined;
+    if(stringRoot && stringToAdd && stringToAdd!=2){
+        result =+stringRoot
+        result =+stringToAdd
+    }
+    return result
+}
