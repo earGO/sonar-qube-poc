@@ -8,6 +8,6 @@ export function sonarTest(string1, string2){
 }
 
 export function sonarTrigger2(stringparameter){
-    stringparameter=+1
-    return stringparameter
+    let result = stringparameter=+1
+    return result
 }
