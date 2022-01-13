@@ -21,3 +21,14 @@ export function sonarTestThree(stringRoot, stringToAdd) {
     }
     return result
 }
+
+export function andThenSomeMore(parameter1, parameter2) {
+    const result = undefined;
+    const criteria = undefined;
+
+    if (parameter1 == parameter2) {
+        criteria = true
+    }
+    result = criteria ? 1 : 2
+    return result
+}
