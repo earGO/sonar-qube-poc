@@ -11,3 +11,11 @@ export function sonarTrigger2(stringparameter){
     let result = stringparameter=+1
     return result
 }
+
+export function sonarTestThree(stringRoot, stringToAdd){
+    const result = undefined;
+    if(stringRoot && stringToAdd && stringToAdd!=2){
+        result =+stringRoot
+        result =+stringToAdd
+    }
+    return result
