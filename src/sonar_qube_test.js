@@ -6,3 +6,8 @@ export function sonarTest(string1, string2){
         return 'not equal'
     }
 }
+
+export function sonarTrigger2(stringparameter){
+    stringparameter=+1
+    return stringparameter
+}
