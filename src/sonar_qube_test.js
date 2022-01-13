@@ -6,3 +6,7 @@ export function sonarTest(string1, string2){
         return 'not equal'
     }
 }
+
+export function sonarTestToo(stringRoot, stringToAdd){
+    return stringRoot=+stringToAdd
+}
